@@ -20,7 +20,7 @@ export default function About() {
   };
 
   return (
-    <div className="w-full overflow-hidden" id="about" ref={ref}>
+    <div className="w-full overflow-hidden px-10" id="about" ref={ref}>
       <div className="w-[95%] md:w-[90%] my-0 mx-auto">
         <div className="flex  flex-col lg:flex-row gap-20 mt-10">
           {/* image */}

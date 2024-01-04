@@ -14,40 +14,40 @@ export default function Home() {
   return (
     <main >
       <Header/>
-      <div className="my-20 mx-10">
+      <div className="my-20 mx-auto max-w-screen-2xl">
         <About/>
       </div>
       <hr className=' border-black' />
-      <div className="my-20 mx-10">
+      <div className="my-20 mx-auto max-w-screen-2xl">
         <Skills/>
       </div>
       <hr className=' border-black' />
-      <div className="my-20 mx-10">
+      <div className="my-20 mx-auto max-w-screen-2xl">
         <Features/>
       </div>
       <hr className=' border-black' />
 
-      <div className="my-20 mx-10">
+      <div className="my-20 mx-auto max-w-screen-2xl">
         <BestWork/>
       </div>
       <hr className=' border-black' />
 
-      <div className="my-20 mx-10">
+      <div className="my-20 mx-auto max-w-screen-2xl">
         <ClientList/>
       </div>
       <hr className=' border-black' />
 
-      <div className="my-20 mx-10">
+      <div className="my-20 mx-auto max-w-screen-2xl">
         <Testimonials/>
       </div>
       <hr className=' border-black' />
 
-      <div className="my-20 mx-10">
+      <div className="my-20 mx-auto max-w-screen-2xl">
         <Form/>
       </div>
       <hr className=' border-black' />
 
-      <div className="my-20 mx-10">
+      <div className="my-5 mx-auto max-w-screen-2xl">
         <Footer/>
       </div>
 

@@ -28,7 +28,7 @@ export default function Form() {
   };
 
   return (
-    <main className=" overflow-hidden text-center" ref={work} id="contactForm">
+    <main className=" overflow-hidden text-center px-10" ref={work} id="contactForm">
       <h2 className="sectionHeading ml-5 pt-5">Contact</h2>
       <h2 className="subHeading ml-5 mt-5">Contect with me</h2>
 

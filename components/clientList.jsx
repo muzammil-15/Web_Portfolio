@@ -22,7 +22,7 @@ export default function ClientList () {
 
 
   return (
-    <div className=" py-4 px-4 sm:px-6 lg:px-8 text-center overflow-hidden" ref={fea} >
+    <div className=" py-4 px-4 sm:px-6 lg:px-8 text-center overflow-hidden " ref={fea} >
       <div className="max-w-7xl mx-auto">
         <h2 className="sectionHeading">VISIT MY CLIENT</h2>
         <h3 className="mt-6 subHeading">OUR TRUSTED CLIENT</h3>

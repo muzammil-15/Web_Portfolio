@@ -34,13 +34,13 @@ export default function Features() {
   };
 
   return (
-    <main className="mt-5 overflow-hidden" ref={fea} >
+    <main className="mt-5 overflow-hidden px-10" ref={fea} >
       <h2 className="sectionHeading ml-5 pt-5">FEATURES</h2>
       <h2 className="subHeading ml-5 mt-5">What I can do?</h2>
       <div className="mt-20 flex  items-center gap-10 flex-wrap">
         <motion.div
           {...animationOptions}
-          className="card py-10 px-10 hover:bg-[#111014] w-[80%] md:w-[30%] flex gap-8 flex-col"
+          className="card py-10 px-10 hover:bg-[#111014] w-[100%] md:w-[40%] lg:w-[30%] flex gap-8 flex-col"
         >
           <AiOutlineMenu className="text-[#EE5939ED] w-[45px] h-[25px]" />
           <h2 className="cardHeading">Web Development</h2>
@@ -51,7 +51,7 @@ export default function Features() {
         </motion.div>
         <motion.div
           {...animationOptions1}
-          className="card py-10 px-10 hover:bg-[#111014] w-[80%] md:w-[30%] flex gap-8 flex-col"
+          className="card py-10 px-10 hover:bg-[#111014] w-[100%] md:w-[40%] lg:w-[30%] flex gap-8 flex-col"
         >
           <AiOutlineApple className="text-[#EE5939ED] w-[45px] h-[25px]" />
           <h2 className="cardHeading">App Development</h2>
@@ -62,7 +62,7 @@ export default function Features() {
         </motion.div>
         <motion.div
           {...animationOptions2}
-          className="card py-10 px-10 hover:bg-[#111014] w-[80%] md:w-[30%] flex gap-8 flex-col"
+          className="card py-10 px-10 hover:bg-[#111014] w-[100%] md:w-[40%] lg:w-[30%] flex gap-8 flex-col"
         >
           <TbBulb className="text-[#EE5939ED] w-[45px] h-[25px]" />
           <h2 className="cardHeading">Ecommerce</h2>

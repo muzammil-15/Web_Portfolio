@@ -20,7 +20,7 @@ export default function BestWork() {
   
 
   return (
-    <main className="mt-5 overflow-hidden" ref={work} id="work" >
+    <main className="mt-5 overflow-hidden px-10" ref={work} id="work" >
       <h2 className="sectionHeading ml-5 pt-5">LOOK MY PROJECT & JUDGE</h2>
       <h2 className="subHeading ml-5 mt-5">My Best Work</h2>
 
