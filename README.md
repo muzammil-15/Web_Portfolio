@@ -27,9 +27,9 @@ This portfolio website serves as a central hub for all my professional accomplis
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Frameworks/Libraries**: React.js, Bootstrap
+- **Frameworks/Libraries**: React.js, Next .js, Shadcn UI, Tailwind CSS
 - **Version Control**: Git, GitHub
-- **Deployment**: Netlify, Vercel, GitHub Pages
+- **Deployment**: Netlify
 
 ## Installation
 
@@ -54,12 +54,7 @@ Once the project is set up and running, you can customize it to fit your needs:
 ![Screenshot 1](./public/assets/readme.PNG)
 *Caption for Screenshot 1*
 
-![Screenshot 2](./public/assets/readme2.PNG)
-*Caption for Screenshot 2*
-![Screenshot 2](./public/assets/readme3.PNG)
-*Caption for Screenshot 3*
-![Screenshot 2](./public/assets/readme4.PNG)
-*Caption for Screenshot 4*
+
 
 ## Contributing
 
