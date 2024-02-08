@@ -42,12 +42,15 @@ To run this project locally, follow these steps:
 
 ## Usage
 
+You can access the deployed version of this portfolio website [here](https://muzammil-dev.netlify.app/). Feel free to explore and interact with the various sections to learn more about my projects, skills, and experiences.
+
 Once the project is set up and running, you can customize it to fit your needs:
 
 - Add your projects: Update the `projects.json` file with information about your projects.
 - Customize the design: Modify the CSS styles to match your personal brand and preferences.
 - Update content: Replace placeholder text and images with your own content.
 - Deploy: Once everything looks good, deploy your website to a hosting platform of your choice.
+
 
 ## Screenshots
 
