@@ -1,39 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
 
+Welcome to my portfolio website! This is where I showcase my projects, skills, and experiences. 
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This portfolio website serves as a central hub for all my professional accomplishments. Whether you're interested in viewing my latest projects, exploring my skills, or contacting me for potential collaborations, you'll find everything you need right here.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **Project Showcase**: Display your latest projects with descriptions, screenshots, and links to live demos or GitHub repositories.
+- **Skills**: Highlight your technical skills and competencies.
+- **About Me**: Share a brief bio and summary of your professional background.
+- **Contact**: Provide various ways for visitors to get in touch with you, such as email, social media links, or a contact form.
+- **Responsive Design**: Ensure that the website looks great and functions well across different devices and screen sizes.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend**: HTML, CSS, JavaScript
+- **Frameworks/Libraries**: React.js, Bootstrap
+- **Version Control**: Git, GitHub
+- **Deployment**: Netlify, Vercel, GitHub Pages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+To run this project locally, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository: `git clone https://github.com/muzammil-15/Web_Portfolio.git`
+2. Navigate to the project directory: `cd Web_Portfolio`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Usage
 
+Once the project is set up and running, you can customize it to fit your needs:
 
+- Add your projects: Update the `projects.json` file with information about your projects.
+- Customize the design: Modify the CSS styles to match your personal brand and preferences.
+- Update content: Replace placeholder text and images with your own content.
+- Deploy: Once everything looks good, deploy your website to a hosting platform of your choice.
 
+## Screenshots
 
+![Screenshot 1](./public/assets/readme.PNG)
+*Caption for Screenshot 1*
+
+![Screenshot 2](./public/assets/readme2.PNG)
+*Caption for Screenshot 2*
+![Screenshot 2](./public/assets/readme3.PNG)
+*Caption for Screenshot 3*
+![Screenshot 2](./public/assets/readme4.PNG)
+*Caption for Screenshot 4*
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+
+<!-- ## License
+
+This project is licensed under the [MIT License](LICENSE). -->
