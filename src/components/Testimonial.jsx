@@ -9,10 +9,11 @@ import {
 import { testimonials } from "@/lib/utils";
 import Autoplay from "embla-carousel-autoplay";
 import AutoScroll from "embla-carousel-auto-scroll";
+import { InfiniteMovingCards } from "./ui/infiniteMovingCard";
 
 const Testimonail = () => {
   return (
-    <div className="mt-20 md:mt-5 w-full overflow-hidden">
+    <div className="my-12 md:mt-5 w-full overflow-hidden">
       <div className=" my-10 px-10  flex flex-col gap-10 justify-between h-full items-center text-white max-w-screen-xl mx-auto">
         <div className="flex flex-col justify-center items-center">
           <Image
@@ -25,62 +26,16 @@ const Testimonail = () => {
             Testimonials
           </h2>
         </div>
-        <div className="relative md:my-10 w-full">
-          <Carousel
-            className="md:mx-10"
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-            plugins={[
-              AutoScroll({
-                startDelay: 0,
-                stopOnInteraction: false,
-                stopOnFocusIn: false,
-              }),
-            ]}
-          >
-            <CarouselContent className="">
-              {testimonials.map((testi, ind) => (
-                <CarouselItem
-                  key={ind}
-                  className=" relative flex justify-center items-center p-10"
-                >
-                  <div className="w-full md:w-[80%] bg-[#1A1A1A] p-2 md:p-6 z-20">
-                    <div className="bg-[#525252] p-2 md:p-6 flex justify-center items-center flex-col gap-5">
-                      <p className="text-center w-full md:w-[90%] lg:w-[70%] text-[10px] md:text-base ">
-                        {testi.desc}
-                      </p>
-                      <pre>{testi.name}</pre>
-                    </div>
-                  </div>
-                  <Image
-                    src={"/assets/dots.png"}
-                    width={250}
-                    height={250}
-                    alt="dots"
-                    className="absolute top-[-50px] right-16 z-10 hidden md:block"
-                  />
-                  <Image
-                    src={"/assets/dots.png"}
-                    width={250}
-                    height={250}
-                    alt="dots"
-                    className="absolute bottom-[-50px] left-20 z-10 hidden md:block"
-                  />
-                  <Image
-                    src={testi.image}
-                    width={70}
-                    height={70}
-                    alt="client"
-                    className="absolute bottom-[0px] right-0 sm:right-5 md:right-20 z-[999]"
-                  />
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            {/* <CarouselPrevious />
-            <CarouselNext /> */}
-          </Carousel>
+        <div className="h-[20rem] rounded-md flex flex-col antialiased bg-transparent ] items-center justify-center relative overflow-hidden">
+
+
+                
+                <InfiniteMovingCards
+                  items={testimonials}
+                  direction="right"
+                  speed="slow"
+                />
+
         </div>
       </div>
     </div>
@@ -88,3 +43,35 @@ const Testimonail = () => {
 };
 
 export default Testimonail;
+
+// const testimonials = [
+//   {
+//     quote:
+//       "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
+//     name: "Charles Dickens",
+//     title: "A Tale of Two Cities",
+//   },
+//   {
+//     quote:
+//       "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
+//     name: "William Shakespeare",
+//     title: "Hamlet",
+//   },
+//   {
+//     quote: "All that we see or seem is but a dream within a dream.",
+//     name: "Edgar Allan Poe",
+//     title: "A Dream Within a Dream",
+//   },
+//   {
+//     quote:
+//       "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+//     name: "Jane Austen",
+//     title: "Pride and Prejudice",
+//   },
+//   {
+//     quote:
+//       "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
+//     name: "Herman Melville",
+//     title: "Moby-Dick",
+//   },
+// ];

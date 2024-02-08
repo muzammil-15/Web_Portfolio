@@ -123,18 +123,18 @@ export const  social = [
 
 export const testimonials = [
   {
-    "desc": "We previously juggled multiple freelancers, resulting in inconsistent designs and extended timelines. Designify changed the game. Their in-house team delivers exceptional quality consistently and quickly.",
-    "name": "Nadir",
-    "image": "/assets/review.png",
+    desc: "We previously juggled multiple freelancers, resulting in inconsistent designs and extended timelines. Designify changed the game. Their in-house team delivers exceptional quality consistently and quickly.",
+    name: "Nadir",
+    image: "/assets/review.png",
   },
   {
-    "desc": "We previously juggled multiple freelancers, resulting in inconsistent designs and extended timelines. Designify changed the game. Their in-house team delivers exceptional quality consistently and quickly.",
-    "name": "Nadir",
-    "image": "/assets/review.png",
+    desc: "We previously juggled multiple freelancers, resulting in inconsistent designs and extended timelines. Designify changed the game. Their in-house team delivers exceptional quality consistently and quickly.",
+    name: "Nadir",
+    image: "/assets/review.png",
   },
   {
-    "desc": "We previously juggled multiple freelancers, resulting in inconsistent designs and extended timelines. Designify changed the game. Their in-house team delivers exceptional quality consistently and quickly.",
-    "name": "Nadir",
-    "image": "/assets/review.png",
+    desc: "We previously juggled multiple freelancers, resulting in inconsistent designs and extended timelines. Designify changed the game. Their in-house team delivers exceptional quality consistently and quickly.",
+    name: "Nadir",
+    image: "/assets/review.png",
   }
 ]

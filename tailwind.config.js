@@ -15,6 +15,8 @@ module.exports = {
       screens: {
         "2xl": "1400px",
       },
+
+        
     },
     extend: {
       colors: {
@@ -71,7 +73,60 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      animation: {
+        scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+      },
+      keyframes: {
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
 }
+
+
+
+// const defaultTheme = require("tailwindcss/defaultTheme");
+
+// const colors = require("tailwindcss/colors");
+// const {
+//   default: flattenColorPalette,
+// } = require("tailwindcss/lib/util/flattenColorPalette");
+
+// /** @type {import('tailwindcss').Config} */
+// module.exports = {
+//   content: ["./src/**/*.{ts,tsx}"],
+//   darkMode: "class",
+//   theme: {
+//     // rest of the code
+//     extend: {
+//       animation: {
+//         scroll:
+//           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+//       },
+//       keyframes: {
+//         scroll: {
+//           to: {
+//             transform: "translate(calc(-50% - 0.5rem))",
+//           },
+//         },
+//       },
+//     },
+//   },
+// };
+
+// function addVariablesForColors({ addBase, theme }) {
+//   let allColors = flattenColorPalette(theme("colors"));
+//   let newVars = Object.fromEntries(
+//     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+//   );
+
+//   addBase({
+//     ":root": newVars,
+//   });
+// }
