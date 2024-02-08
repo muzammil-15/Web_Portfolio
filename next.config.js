@@ -1,9 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,
-    images:{
-        domains: ['rainbowit.net','i.stack.imgur.com']
-    }
-}
-
-module.exports = nextConfig
+    webpack: (config, { dev }) => {
+      // Disable webpack cache in development
+      if (dev) {
+        config.cache = false;
+      }
+  
+      return config;
+    },
+  };
+  
+  module.exports = nextConfig;
