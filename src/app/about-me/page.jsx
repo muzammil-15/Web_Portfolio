@@ -22,15 +22,15 @@ const About = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-center items-start gap-10 my-10">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-[700] text-[#FFF] flex-1">
-            My mission is to make design easier.
+            My mission is to streamline development processes
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-[#949494] font-[600] flex-1">
-          I&apos;m Kashan, a passionate UX/UI designer dedicated to enhancing online experiences through innovative design solutions. With a focus on personalized creations, I strive to elevate website performance by bidding farewell to generic logos and landing pages. My commitment to excellence ensures that your brand stands out from competitors, offering exceptional outcomes tailored to your unique vision.
+          I&apos;m Muzammil, a dedicated MERN stack developer committed to elevating online platforms through innovative development solutions. With a focus on tailored creations, I endeavor to enhance website performance by implementing cutting-edge technologies and saying goodbye to cookie-cutter templates. My dedication to quality ensures that your digital presence surpasses competitors, delivering exceptional results aligned with your distinct objectives.
           </p>
         </div>
         <div className="flex flex-col gap-10 my-10">
           <div className="flex flex-col md:flex-row justify-start items-start gap-10">
-            <Image src={"/assets/k.png"} width={400} height={500} alt="me" />
+            <Image src={"/assets/mee.jpeg"} width={430} height={500} alt="me" className="rounded-lg" />
             <Image src={"/assets/k1.png"} width={800} height={500} alt="me" />
           </div>
           <div className="flex justify-center items-center">
@@ -40,7 +40,7 @@ const About = () => {
               </button>
             </Link>
           </div>
-          <div className="flex flex-col justify-center items-center">
+          {/* <div className="flex flex-col justify-center items-center">
             <Image
               src={"/assets/f.png"}
               width={1000}
@@ -54,7 +54,7 @@ const About = () => {
                 </React.Fragment>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       

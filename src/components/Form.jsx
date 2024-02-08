@@ -38,10 +38,10 @@ const Form = () => {
         process.env.NEXT_PUBLIC_EMAIL_TEMPLETE_KEY,
         {
           from_name: form.firstName+" "+form.lastName,
-          to_name: "Kashan Meer",
+          to_name: "Muzammil Hussain",
           from_phone: form.phone,
           from_email: form.email,
-          to_email: "meer2keman@gmail.com",
+          to_email: "muzammilalyari15@gmail.com",
           message: form.message,
         },
         process.env.NEXT_PUBLIC_EMAIL_ID_KEY

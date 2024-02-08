@@ -6,8 +6,8 @@ import Footer from "@/components/Footer";
 const inter = Syne({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio Website",
-  description: "Portfolio Website",
+  title: "MUZAMMIL HUSSAIN",
+  description: "Muzammil hussain portfolio website",
 };
 
 export default function RootLayout({ children }) {

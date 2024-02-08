@@ -16,16 +16,16 @@ const Footer = () => {
             <Link href="https://twitter.com/kashan48207" target="_blank">
                 <Image src={"/assets/t.png"} width={50} height={50} alt="tweeter"/>
             </Link>
-            <Link href="https://www.linkedin.com/feed/" target="_blank">
+            <Link href="https://www.linkedin.com/in/muzammil-hussain-a72187262/" target="_blank">
                 <Image src={"/assets/l.png"} width={50} height={50} alt="linkedin"/>
             </Link>
-            <Link href="https://dribbble.com/kashan909042" target="_blank">
+            <Link href="https://dribbble.com2" target="_blank">
                 <Image src={"/assets/d.png"} width={50} height={50} alt="dribble"/>
             </Link>
-            <Link href="https://wa.link/mj6z3v" target="_blank">
+            <Link href="https://wa.link" target="_blank">
                 <Image src={"/assets/w.png"} width={50} height={50} alt="whatsapp"/>
             </Link>
-            <Link href="https://mail.google.com/mail/u/0/meer2keman@gmail.com" target="_blank">
+            <Link href="https://mail.google.com/mail/u/0/muzammilalyari15@gmail.com" target="_blank">
                 <Image src={"/assets/m.png"} width={50} height={50} alt="email"/>
             </Link>
           </div>
