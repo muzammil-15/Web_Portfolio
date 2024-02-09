@@ -77,7 +77,7 @@
 
 
 body{
-  background: linear-gradient(0deg, #1D1D1D 0%, #1D1D1D 100%), #1A1A1A;
+  background: linear-gradient(0deg, #000000 0%, #000000 100%), #000000;
 }
 
 .card{
