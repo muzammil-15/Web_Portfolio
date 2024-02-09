@@ -16,7 +16,7 @@ const Me = () => {
             MongoDB, Express.js, React, and Node.js to deliver engaging and
             functional digital solutions
           </p>
-          <Link href={"/about-me"} className="flex justify-center items-center py-3 px-6 w-max rounded-full bg-[#FF9142] hover:bg-[#f07f2e] text-[#F4F7FA] text-sm">
+          <Link href={"/about-me"} className="flex justify-center items-center py-3 px-6 w-max rounded-full bg-indigo-500 hover:bg-indigo-600 text-[#F4F7FA] text-sm">
 
 
             Discover More About Me

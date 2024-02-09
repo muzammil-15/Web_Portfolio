@@ -10,10 +10,10 @@ const Contact = () => {
             Contact Me
           </h2>
           <p className="text-[#949494] text-lg">For Any Project Knock Us</p>
-          <hr className="border-[0.5px] border-[#818080b2] w-[100%] mt-10" />
+          <hr className="border-[0.5px] border-indigo-500 w-[100%] mt-10" />
         </div>
         <Form/>
-        <Image src={"/assets/book.png"} width={1100} height={400} alt="macbook" className="mb-10"/>
+        <Image src={"/assets/book.png"} width={1100} height={400} alt="macbook" className="mb-10 shadow-sm shadow-[#5756569d]"/>
       </div>
     </div>
   );

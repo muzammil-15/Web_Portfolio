@@ -18,7 +18,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-[#949494] text-lg">Little Brief About Myself</p>
-          <hr className="border-[0.5px] border-[#818080b2] w-[100%] mt-10" />
+          <hr className="border-[0.5px] border-indigo-500 w-[100%] mt-10" />
         </div>
         <div className="flex flex-col md:flex-row justify-center items-start gap-10 my-10">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-[700] text-[#FFF] flex-1">
@@ -35,7 +35,7 @@ const About = () => {
           </div>
           <div className="flex justify-center items-center">
             <Link href={"/contact-me"} className="w-[150px]">
-              <button className="w-full flex justify-center items-center py-3 px-6 rounded-full bg-[#FF9142] hover:bg-[#f07f2e] text-[#F4F7FA] text-sm">
+              <button className="w-full flex justify-center items-center py-3 px-6 rounded-full bg-indigo-500 hover:bg-indigo-600 text-[#F4F7FA] text-sm">
                 CONTACT ME
               </button>
             </Link>

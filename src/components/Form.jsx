@@ -144,7 +144,7 @@ const Form = () => {
           </div>
         </div>
         <div className="flex justify-center items-center my-6">
-          <button type="submit" className="w-[150px] flex justify-center items-center py-3 px-6 rounded-full bg-[#FF9142] hover:bg-[#f07f2e] text-[#F4F7FA] text-sm">
+          <button type="submit" className="w-[150px] flex justify-center items-center py-3 px-6 rounded-full bg-indigo-500 hover:bg-indigo-600 text-[#F4F7FA] text-sm">
           {loading ? "Sending..." : "Send"}
           </button>
         </div>

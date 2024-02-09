@@ -60,7 +60,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/"
-                className="block py-2 px-3  rounded md:hover:bg-transparent  hover:text-orange-600  text-white"
+                className="block py-2 px-3  rounded md:hover:bg-transparent  hover:text-indigo-600  text-white"
               >
                 HOME
               </Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/about-me"
-                className="block py-2 px-3  rounded md:hover:bg-transparent  hover:text-orange-600   text-white"
+                className="block py-2 px-3  rounded md:hover:bg-transparent  hover:text-indigo-600   text-white"
               >
                 ABOUT ME
               </Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="#work"
-                className="block py-2 px-3  rounded-[30px]  md:hover:bg-transparent  hover:text-orange-600   text-white"
+                className="block py-2 px-3  rounded-[30px]  md:hover:bg-transparent  hover:text-indigo-600   text-white"
               >
                 MY WORKS
               </Link>
@@ -84,7 +84,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/contact-me"
-                className="block py-2 px-4 border bg-[#03030480]  border-orange-300 hover:border-orange-500  rounded-[30px] md:hover:bg-transparent  md:hover:text-orange-500  text-white "
+                className="block py-2 px-4 border bg-[#03030480]  border-indigo-400 hover:border-indigo-600  rounded-[30px] md:hover:bg-transparent  md:hover:text-indigo-600  text-white "
               >
                 CONTACT
               </Link>

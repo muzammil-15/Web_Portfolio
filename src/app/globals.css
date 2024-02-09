@@ -92,13 +92,8 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsla(53, 81%, 59%, 1);
+  background: rgb(92, 92, 94);
 
-background: linear-gradient(90deg, hsla(53, 81%, 59%, 1) 0%, hsla(30, 100%, 41%, 1) 58%);
-
-background: -moz-linear-gradient(90deg, hsla(53, 81%, 59%, 1) 0%, hsla(30, 100%, 41%, 1) 58%);
-
-background: -webkit-linear-gradient(90deg, hsla(53, 81%, 59%, 1) 0%, hsla(30, 100%, 41%, 1) 58%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBD744", endColorstr="#D16900", GradientType=1 );
   border-radius: 200px;
@@ -115,14 +110,6 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBD744", en
   height: 6px;
 }
 
-::-webkit-scrollbar-thumb:horizontal {
-  background-color: #af2245;
-  border-radius: 50px;
-}
-
-::-webkit-scrollbar-track:horizontal {
-  background-color: #f1f1f1;
-}
 
 /* this is simpleInput componet */
 

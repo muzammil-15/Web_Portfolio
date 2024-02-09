@@ -24,7 +24,7 @@ const Hero = () => {
             user-centric experiences
           </p>
           <Link href={"#work"}>
-            <button className="flex justify-center items-center py-3 px-6 rounded-full bg-[#FF9142] hover:bg-[#f07f2e] text-[#F4F7FA] text-sm">
+            <button className="flex justify-center items-center py-3 px-6 rounded-full bg-indigo-500 hover:bg-indigo-600 text-[#F4F7FA] text-sm">
               Explore works
             </button>
           </Link>
