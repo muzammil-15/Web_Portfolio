@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import Button from "./ui/button";
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -82,12 +83,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link
-                href="/contact-me"
-                className="block py-2 px-4 border bg-[#03030480]  border-indigo-400 hover:border-indigo-600  rounded-[30px] md:hover:bg-transparent  md:hover:text-indigo-600  text-white "
-              >
-                CONTACT
-              </Link>
+              <Button href={'/contact-me'}>CONTACT</Button>
             </li>
           </ul>
         </div>

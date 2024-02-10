@@ -1,6 +1,7 @@
 import Project from "@/components/Project";
 import Projects from "@/components/Projects";
 import Social from "@/components/social";
+import Button from "@/components/ui/button";
 import { projects, social } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
@@ -34,11 +35,7 @@ const About = () => {
             <Image src={"/assets/k1.png"} width={800} height={500} alt="me" />
           </div>
           <div className="flex justify-center items-center">
-            <Link href={"/contact-me"} className="w-[150px]">
-              <button className="w-full flex justify-center items-center py-3 px-6 rounded-full bg-indigo-500 hover:bg-indigo-600 text-[#F4F7FA] text-sm">
-                CONTACT ME
-              </button>
-            </Link>
+            <Button href={"/contact-me"}>CONTACT ME</Button>
           </div>
           {/* <div className="flex flex-col justify-center items-center">
             <Image

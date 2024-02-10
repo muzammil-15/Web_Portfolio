@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "./ui/button";
 
 const Me = () => {
   return (
@@ -16,12 +17,7 @@ const Me = () => {
             MongoDB, Express.js, React, and Node.js to deliver engaging and
             functional digital solutions
           </p>
-          <Link href={"/about-me"} className="flex justify-center items-center py-3 px-6 w-max rounded-full bg-indigo-500 hover:bg-indigo-600 text-[#F4F7FA] text-sm">
-
-
-            Discover More About Me
-
-          </Link>
+          <Button href={"/about-me"} >Discover More About Me</Button>
         </div>
         <div className="flex-1 flex justify-center items-center">
           <Image src={"/assets/mee.jpeg"} width={400} height={300} alt="me" className="rounded-lg" />
