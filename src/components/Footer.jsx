@@ -9,8 +9,7 @@ const Footer = () => {
           <h2 className="text-3xl md:text-5xl font-[700] text-[#FFF] text-center">Let’s Talk with Me!</h2>
           <p className="text-[#FFFFFF80] text-lg md:text-xl font-[500] text-center">
             
-            I am always open to discuss your project, improve your online
-            presence or help with your UI/UX deesign
+            As a web developer, I&apos;m here to discuss your project, improve your online presence, or refine your UI/UX design. Let's connect and create digital success.
           </p>
           <div className="flex justify-center gap-5 md:gap-10 items-center w-full">
             <Link href="https://twitter.com/kashan48207" target="_blank">
